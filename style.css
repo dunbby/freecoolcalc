@@ -1,0 +1,40 @@
+body {
+    background-color: silver;
+}
+input{
+    font-size: 200%;
+    text-align: right;
+    background-color: silver; 
+    height:10%;width:99.7%;
+    border: 0px solid;
+}
+table {
+    align-self: center;
+    border-collapse: collapse;
+    text-align: center;
+    height:95%;width:97%; position: absolute; 
+}
+table:hover{
+    background:cyan;
+    color:black;
+}
+td:hover {
+    background-color: cyan;
+}
+a {
+    text-decoration: none;
+    display:block;
+}
+a:visited{
+    color: inherit;
+}
+.row{
+    background-color: silver;
+    font-size: 200%;
+}
+.operators{
+    background-color: darkgrey;
+}
+.operator_equal{
+    background-color: orangered;
+}

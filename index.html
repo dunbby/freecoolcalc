@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+    <input id="display_result" name="results">
+    <table id="keyboard">
+        <tr class="row">
+            <td class="operators" id="operator_clear_all"><a href="#" onclick="clear_all()">C</a></td>
+            <td class="operators" id="operator_segmentation"><a href="#" onclick="segmentation()">/</a></td>
+            <td class="operators" id="operator_multiplication"><a href="#" onclick="multiplication()">*</a></td>
+            <td class="operators" id="operator_minus"><a href="#" onclick="minus()">-</a></td>
+        </tr>
+        <tr class="row">
+            <td class="digits" id="digit_seven"><a href="#" onclick="digit_7()">7</a></td>
+            <td class="digits" id="digit_eight"><a href="#" onclick="digit_8()">8</a></td>
+            <td class="digits" id="digit_nine"><a href="#" onclick="digit_9()">9</a></td>
+            <td class="operators" rowspan="2" id="operator_plus"><a href="#" onclick="plus()">+</a></td>
+        </tr>
+        <tr class="row">
+            <td class="digits" id="digit_four"><a href="#" onclick="digit_4()">4</a></td>
+            <td class="digits" id="digit_five" ><a href="#" onclick="digit_5()">5</a></td>
+            <td class="digits" id="digit_six"><a href="#" onclick="digit_6()">6</a></td>
+        </tr>
+        <tr class="row">
+            <td class="digits" id="digit_one"><a href="#" onclick="digit_1()">1</a></td>
+            <td class="digits" id="digit_two"><a href="#" onclick="digit_2()">2</a></td>
+            <td class="digits" id="digit_three"><a href="#" onclick="digit_3()">3</a></td>
+            <td class="operator_equal" rowspan="2" id="operator_equal"><a id="operator_equal" href="#" onclick="equal()">=</a></td>
+        </tr>
+        <tr class="row">
+            <td class="digits" colspan="2" id="digit_zero"><a href="#" onclick="digit_0()">0</a></td>
+            <td class="operators" id="operator_point"><a href="#" onclick="point()">.</a></td>
+        </tr>
+    </table>
+            <!--
+            <a href="#" onclick="clear_all()">C</a>
+            <a href="#" onclick="segmentation()">/</a>
+            <a href="#" onclick="multiplication()">*</a>
+            <a href="#" onclick="minus()">-</a>
+            
+            <a href="#" onclick="digit_7()">7</a>
+            <a href="#" onclick="digit_8()">8</a>
+            <a href="#" onclick="digit_9()">9</a>
+            <a href="#" onclick="plus()">+</a>
+        
+            <a href="#" onclick="digit_4()">4</a>
+            <a href="#" onclick="digit_5()">5</a>
+            <a href="#" onclick="digit_6()">6</a>
+            
+        
+            <a href="#" onclick="digit_1()">1</a>
+            <a href="#" onclick="digit_2()">2</a>
+            <a href="#" onclick="digit_3()">3</a>
+            <a id="operator_equal" href="#" onclick="equal()">=</a>
+        
+            
+            <a href="#" onclick="digit_0()">0</a>
+            <a href="#" onclick="point()">.</a>
+            -->
+</body>
+</html>
