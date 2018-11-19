@@ -24,6 +24,7 @@ var button_segmentation=0;
 var first_numbers=0;
 var second_numbers=0;
 var result=0;
+var history=0;
 function clear_all()
 {
     document.getElementById("display_result").value="";
@@ -34,6 +35,7 @@ function clear_all()
     first_numbers=0;
     second_numbers=0;
     result=0;
+    history=0;
 }
 function segmentation()
 {
