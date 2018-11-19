@@ -1,18 +1,24 @@
 body {
     background-color: silver;
 }
+#history {
+    opacity: 1;
+    transition: 1s opacity;
+    text-align: center;
+    font-size:32px;
+  }
 input{
     font-size: 200%;
     text-align: right;
     background-color: silver; 
-    height:10%;width:99.7%;
+    height: 10%;width:99.7%;
     border: 0px solid;
 }
 table {
     align-self: center;
     border-collapse: collapse;
     text-align: center;
-    height:95%;width:97%; position: absolute; 
+    height:90%;width:97%; position: absolute; 
 }
 table:hover{
     background:cyan;

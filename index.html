@@ -5,10 +5,9 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="scripts.js"></script>
-
 </head>
 <body>
-    <div id="history"></div>
+    <div id="history">0</div>
     <input id="display_result" name="results">
     <table id="keyboard">
         <tr class="row">
@@ -32,7 +31,7 @@
             <td class="digits" id="digit_one"><a href="#" onclick="digit_1()">1</a></td>
             <td class="digits" id="digit_two"><a href="#" onclick="digit_2()">2</a></td>
             <td class="digits" id="digit_three"><a href="#" onclick="digit_3()">3</a></td>
-            <td class="operator_equal" rowspan="2" id="operator_equal"><a id="operator_equal" href="#" onclick="equal()">=</a></td>
+            <td class="operator_equal" rowspan="2" id="operator_equal" type=submit><a id="operator_equal" href="#" onclick="equal()">=</a></td>
         </tr>
         <tr class="row">
             <td class="digits" colspan="2" id="digit_zero"><a href="#" onclick="digit_0()">0</a></td>
