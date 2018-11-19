@@ -25,15 +25,6 @@ var first_numbers=0;
 var second_numbers=0;
 var result=0;
 var history=0;
-window.onload = function() {
-    window.setTimeout(history, 1000); //8 seconds
-    
-    document.getElementById("display_result").value="";
-  }
-  
-  function history() {
-    document.getElementById("history").style.opacity = '0';
-  }
 
 function clear_all()
 {

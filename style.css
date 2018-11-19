@@ -2,11 +2,8 @@ body {
     background-color: silver;
 }
 #history {
-    opacity: 1;
-    transition: 1s opacity;
-    text-align: center;
-    font-size:32px;
-  }
+    font-size:200%;
+}
 input{
     font-size: 200%;
     text-align: right;
