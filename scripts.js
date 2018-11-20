@@ -37,7 +37,7 @@ function clear_all()
     second_numbers=0;
     result=0;
     history=0;
-    document.getElementById("history").innerHTML="0";
+    //document.getElementById("history").innerHTML="0";
 }
 function segmentation()
 {

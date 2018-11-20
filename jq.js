@@ -5,3 +5,80 @@ $(document).ready(function(){
         $("#history").fadeIn(300);
     });
 });
+$(document).ready(function(){
+    $("#digit_zero").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("0");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_one").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("1");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_two").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("2");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_three").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("3");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_four").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("4");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_five").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("5");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_six").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("6");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_seven").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("7");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_eight").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("8");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#digit_nine").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text("9");
+        $("#display_result").fadeIn(300);
+    });
+});
+$(document).ready(function(){
+    $("#operator_point").click(function(){
+        $("#display_result").fadeOut(0);
+        $("#display_result").text(".");
+        $("#display_result").fadeIn(300);
+    });
+});
