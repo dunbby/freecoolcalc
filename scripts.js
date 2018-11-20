@@ -21,10 +21,13 @@ var button_plus=0;
 var button_minus=0;
 var button_multiplication=0;
 var button_segmentation=0;
+var button_point=0;
 var first_numbers=0;
 var second_numbers=0;
 var result=0;
 var history=0;
+var display_result=document.getElementById("display_result");
+var temporary = 0;
 
 function clear_all()
 {
@@ -38,6 +41,7 @@ function clear_all()
     result=0;
     history=0;
     //document.getElementById("history").innerHTML="0";
+    temporary=0;
 }
 function segmentation()
 {
@@ -70,10 +74,20 @@ function plus()
 {
     document.getElementById("display_result").value+="+";
     first_numbers = document.getElementById("display_result").value;
-    document.getElementById("history").innerHTML=first_numbers;
+    document.getElementById("history").innerHTML+=first_numbers;
     first_numbers = first_numbers.substring(0, first_numbers.length - 1);
     document.getElementById("display_result").value="";
-    button_plus=1;
+    
+    //temporary=+first_numbers;
+    if (button_plus == 0){
+        temporary+=first_numbers;
+    }
+    else {
+        temporary= parseFloat(temporary) + parseFloat(first_numbers);
+        
+    }
+    button_plus = 1;
+    console.log(temporary);
 }
 function equal()
 {

@@ -75,6 +75,7 @@ $(document).ready(function(){
         $("#display_result").fadeIn(300);
     });
 });
+var point=0;
 $(document).ready(function(){
     $("#operator_point").click(function(){
         $("#display_result").fadeOut(0);
