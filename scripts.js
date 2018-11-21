@@ -1,21 +1,3 @@
-document.getElementById('digit_zero').addEventListener('click', digit_0);
-document.getElementById('digit_one').addEventListener('click', digit_1);
-document.getElementById('digit_two').addEventListener('click', digit_2);
-document.getElementById('digit_three').addEventListener('click', digit_3);
-document.getElementById('digit_four').addEventListener('click', digit_4);
-document.getElementById('digit_five').addEventListener('click', digit_5);
-document.getElementById('digit_six').addEventListener('click', digit_6);
-document.getElementById('digit_seven').addEventListener('click', digit_7);
-document.getElementById('digit_eight').addEventListener('click', digit_8);
-document.getElementById('digit_nine').addEventListener('click', digit_9);
-document.getElementById('digit_nine').addEventListener('click', digit_9);
-document.getElementById('operator_plus').addEventListener('click', plus);
-document.getElementById('operator_minus').addEventListener('click', minus);
-document.getElementById('operator_multiplication').addEventListener('click', multiplication);
-document.getElementById('operator_segmentation').addEventListener('click', segmentation);
-document.getElementById('operator_equal').addEventListener('click', equal);
-document.getElementById('operator_point').addEventListener('click', point);
-document.getElementById('operator_clear_all').addEventListener('click', clear_all);
 
 var button_plus=0;
 var button_minus=0;
